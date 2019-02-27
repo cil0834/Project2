@@ -9,6 +9,9 @@
 public abstract class MesoAbstract 
 {
    //TODO	
+	/**
+	 * 
+	 */
 	protected String mesoString;
 	
 	MesoAbstract (MesoStation a)
