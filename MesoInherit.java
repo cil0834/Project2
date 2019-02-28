@@ -9,6 +9,8 @@ public class MesoInherit extends MesoAbstract
 	@Override
 	/**
 	 * The calAverage takes the mesoString and puts it into a new string. 
+	 * Each of the string's character's ascii values are then added to a string. 
+	 * 
 	 */
 	public int[] calAverage() {
 		// TODO Auto-generated method stub
