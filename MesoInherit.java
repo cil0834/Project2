@@ -7,6 +7,9 @@ public class MesoInherit extends MesoAbstract
 	}
 	
 	@Override
+	/**
+	 * The calAverage takes the mesoString and puts it into a new string. 
+	 */
 	public int[] calAverage() {
 		// TODO Auto-generated method stub
 		//a string to store the string that is being parsed
@@ -16,7 +19,7 @@ public class MesoInherit extends MesoAbstract
 		//the each index of the characterID array list represents a character in the ID string
 		double[] asciiCharacterValue = new double[4];
 		//create a for loop to find the ascii value of each character of the ID string and add it
-		//to the asciiValue array
+		//to the asciiCharacterValue array
 		for(int index = 0; index < asciiCharacterValue.length; ++index)
 		{
 			char temp = ID.charAt(index);
