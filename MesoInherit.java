@@ -24,9 +24,8 @@ public class MesoInherit extends MesoAbstract
 		//to the asciiCharacterValue array
 		for(int index = 0; index < asciiCharacterValue.length; ++index)
 		{
-			char temp = ID.charAt(index);
-			int tempAscii = (int)temp;
-			asciiCharacterValue[index] = tempAscii;
+			//cast the character to an int and add it to the asciiCharacterValue array
+			asciiCharacterValue[index] = (int)ID.charAt(index);
 		}
 		
 		//create a variable to hold the total value
