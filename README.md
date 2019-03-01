@@ -37,4 +37,6 @@ I need to make two classes.
       that if the decimal of the average is > 0.5 then the average is going to be ceilinged. Otherwise the average will
       be floored. The array will then be returned.
       
-   c. The last method is the letterAverage. What this method does is it takes the average of the 
+   c. The last method is the letterAverage. This method will initialize an array with calAverage
+      Then the array's last value will be returned as a character because the last element of the arry is the element whose
+      average is based off of the decimal of the average.
