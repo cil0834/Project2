@@ -1,9 +1,14 @@
 //TODO
 public class MesoInherit extends MesoAbstract
 {	
-	MesoInherit(MesoStation a)
+	/**
+	 * The constructor takes the same argument as the MesoAbstract method and it is going to assign it
+	 * to the mesoString String.
+	 * @param The stationID of the string that is going to have its ascii value averaged
+	 */
+	MesoInherit(MesoStation stationID)
 	{
-		super(a);
+		super(stationID);
 	}
 	
 	@Override
@@ -17,7 +22,8 @@ public class MesoInherit extends MesoAbstract
 	 * 		   int[1] contains the floor of the average
 	 * 		   int[2] contains the floor (if the decimal is > 0.5) or the ceiling otherwise
 	 */
-	public int[] calAverage() {
+	public int[] calAverage() 
+	{
 		// TODO Auto-generated method stub
 		//a string to store the string that is being parsed
 		String ID = mesoString;
