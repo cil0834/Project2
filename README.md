@@ -35,4 +35,6 @@ I need to make two classes.
       of the avereage of the ascii values. The second index is going to hold the floor of the average of the ascii values.
       The last index is going the hold the averages of the ascii value depending on the decimal of the average. This means
       that if the decimal of the average is > 0.5 then the average is going to be ceilinged. Otherwise the average will
-      be floored.
+      be floored. The array will then be returned.
+      
+   c. The last method is the letterAverage. What this method does is it takes the average of the 
