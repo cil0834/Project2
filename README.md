@@ -21,3 +21,22 @@ I need to make two classes.
       The way the average ascii value is determined is similar to the way in which the 2 index of the array in calAverage is determined.
       That is, if the ascii double average has a decimal of 0.5 or greter the ceiling is taken. Otherwise, the floor is taken.
       Once the ascii value is determined the method then casts the int to a character and returns the character.
+      
+2. The MesoInherit class is going to actually implement the abstract methods.
+
+   a. The constructor is going to take in the same arguement as the MesoAbstract constructor so the MesoInherit constructor is going 
+      to utilize the super method. The arguement is the string that is going to have its average ascii value calculated. 
+      The constructor will then initialize it's mesoString variable with the arguement.
+   
+   b. The calAverage is going to take the mesoString and store its characters into an integer array. Where each index of 
+      the array represents the corresponding ascii value of a character of the string. For example index 0 represents the ascii
+      value of the first character of the string. The ascii values are then going to be added up and averaged. They will be averaged
+      in three ways. These averages will then be stored in an int array of size 3. The first index is going to hold the ceiling
+      of the avereage of the ascii values. The second index is going to hold the floor of the average of the ascii values.
+      The last index is going the hold the averages of the ascii value depending on the decimal of the average. This means
+      that if the decimal of the average is > 0.5 then the average is going to be ceilinged. Otherwise the average will
+      be floored. The array will then be returned.
+      
+   c. The last method is the letterAverage. This method will initialize an array with calAverage
+      Then the array's last value will be returned as a character because the last element of the arry is the element whose
+      average is based off of the decimal of the average.
