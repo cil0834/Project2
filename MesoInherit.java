@@ -95,7 +95,7 @@ public class MesoInherit extends MesoAbstract
 		//initialize an array that holds the average values
 		int[] averages = calAverage();
 		//call the last index of the averages array because that is the one that averages based off of 
-		//decimal place. Cast the int to a character so it return a character
+		//decimal place. Cast the int to a character so it return a character.
 		return (char)averages[2];
 	}	
 }
