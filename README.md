@@ -33,4 +33,6 @@ I need to make two classes.
       value of the first character of the string. The ascii values are then going to be added up and averaged. They will be averaged
       in three ways. These averages will then be stored in an int array of size 3. The first index is going to hold the ceiling
       of the avereage of the ascii values. The second index is going to hold the floor of the average of the ascii values.
-      The last index is going the hold the 
+      The last index is going the hold the averages of the ascii value depending on the decimal of the average. This means
+      that if the decimal of the average is > 0.5 then the average is going to be ceilinged. Otherwise the average will
+      be floored.
