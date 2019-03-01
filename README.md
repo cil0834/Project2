@@ -23,3 +23,5 @@ I need to make two classes.
       Once the ascii value is determined the method then casts the int to a character and returns the character.
       
 2. The MesoInherit class is going to actually implement the abstract methods.
+
+   a. The constructor is going to take in the same arguement as the MesoAbstract constructor so the MesoInherit constructor is going to           utilize the super method. 
