@@ -28,4 +28,7 @@ I need to make two classes.
       to utilize the super method. The arguement is the string that is going to have its average ascii value calculated. 
       The constructor will then initialize it's mesoString variable with the arguement.
    
-   
+   b. The calAverage is going to take the mesoString and store its characters into an integer array. Where each index of 
+      the array represents the corresponding ascii value of a character of the string. For example index 0 represents the ascii
+      value of the first character of the string. The ascii values are then going to be added up and averaged. They will be averaged
+      in three ways.
