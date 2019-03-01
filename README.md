@@ -21,3 +21,5 @@ I need to make two classes.
       The way the average ascii value is determined is similar to the way in which the 2 index of the array in calAverage is determined.
       That is, if the ascii double average has a decimal of 0.5 or greter the ceiling is taken. Otherwise, the floor is taken.
       Once the ascii value is determined the method then casts the int to a character and returns the character.
+      
+2. The MesoInherit class is going to actually implement the abstract methods.
