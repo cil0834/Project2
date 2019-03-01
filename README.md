@@ -31,4 +31,6 @@ I need to make two classes.
    b. The calAverage is going to take the mesoString and store its characters into an integer array. Where each index of 
       the array represents the corresponding ascii value of a character of the string. For example index 0 represents the ascii
       value of the first character of the string. The ascii values are then going to be added up and averaged. They will be averaged
-      in three ways.
+      in three ways. These averages will then be stored in an int array of size 3. The first index is going to hold the ceiling
+      of the avereage of the ascii values. The second index is going to hold the floor of the average of the ascii values.
+      The last index is going the hold the 
