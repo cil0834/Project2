@@ -24,4 +24,8 @@ I need to make two classes.
       
 2. The MesoInherit class is going to actually implement the abstract methods.
 
-   a. The constructor is going to take in the same arguement as the MesoAbstract constructor so the MesoInherit constructor is going to           utilize the super method. 
+   a. The constructor is going to take in the same arguement as the MesoAbstract constructor so the MesoInherit constructor is going 
+      to utilize the super method. The arguement is the string that is going to have its average ascii value calculated. 
+      The constructor will then initialize it's mesoString variable with the arguement.
+   
+   
