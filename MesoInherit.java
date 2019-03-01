@@ -91,6 +91,7 @@ public class MesoInherit extends MesoAbstract
 				String ID = mesoString;
 				//the each index of the characterID array list represents a character in the ID string
 				int characterAverage = 0;
+				//set the array size to 4
 				double[] asciiCharacterValue = new double[4];
 				//create a for loop to find the ascii value of each character of the ID string and add it
 				//to the asciiValue array
