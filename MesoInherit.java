@@ -84,46 +84,18 @@ public class MesoInherit extends MesoAbstract
 		return characterAverages;
 	}
 
+	/**
+	 * The letterAverage initializes an array using the calAverage method
+	 * With this array it returns the final value of the array as a character.
+	 * @return the average character value
+	 */
 	@Override
 	public char letterAverage() {
 		// TODO Auto-generated method stub
-		//a string to store the string that is being parsed
-				String ID = mesoString;
-				//the each index of the characterID array list represents a character in the ID string
-				int characterAverage = 0;
-				//set the array size to 4
-				double[] asciiCharacterValue = new double[4];
-				//create a for loop to find the ascii value of each character of the ID string and add it
-				//to the asciiValue array
-				for(int index = 0; index < asciiCharacterValue.length; ++index)
-				{
-					asciiCharacterValue[index] = (int)ID.charAt(index);
-				}
-						
-				//create a variable to hold the total value
-				double totalValue = 0;
-				//calculate the average of the values
-				for (int count = 0; count < asciiCharacterValue.length; ++count)
-				{
-					totalValue = totalValue + asciiCharacterValue[count];
-				}
-						
-				//compute the average
-				double average = totalValue / asciiCharacterValue.length;
-				
-				//if the average has a decimal of 0.5 or greater round up
-				if ((Math.ceil(average)-average) <= 0.5)
-				{
-					 characterAverage = (int)Math.ceil(average);
-				}
-				//if the average has a decimal less than 0.5 round down
-				else 
-				{
-					characterAverage = (int)Math.floor(average);
-				}
-						
-				//make the average into a character
-				char averageCharacter = (char)characterAverage;
-				return averageCharacter;
+		//initialize an array that holds the average values
+		int[] averages = calAverage();
+		//call the last index of the averages array because that is the one that averages based off of 
+		//decimal place. Cast the int to a character so it return a character
+		return (char)averages[2];
 	}	
 }
