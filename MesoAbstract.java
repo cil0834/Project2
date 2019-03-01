@@ -10,7 +10,7 @@ public abstract class MesoAbstract
 {
    //TODO	
 	/**
-	 * A String that holds the value of the String who's ascii values are going to be averaged
+	 * A String that holds the value of the String who's ascii values that are going to be averaged
 	 */
 	protected String mesoString;
 	
