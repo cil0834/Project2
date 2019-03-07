@@ -79,7 +79,6 @@ public class MesoInherit extends MesoAbstract
 			}
 		
 		}
-		
 		//return the chracterAverages array
 		return characterAverages;
 	}
