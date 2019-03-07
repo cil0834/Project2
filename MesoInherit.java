@@ -3,7 +3,7 @@ public class MesoInherit extends MesoAbstract
 {	
 	/**
 	 * The constructor takes the same argument as the MesoAbstract method and it is going to assign it
-	 * to the mesoString String.
+	 * to the mesoString String
 	 * @param The stationID of the string that is going to have its ascii value averaged
 	 */
 	MesoInherit(MesoStation stationID)
