@@ -77,7 +77,6 @@ public class MesoInherit extends MesoAbstract
 					characterAverages[2] = (int)Math.floor(average);
 				}
 			}
-		
 		}
 		//return the chracterAverages array
 		return characterAverages;
