@@ -71,7 +71,7 @@ public class MesoInherit extends MesoAbstract
 				{
 					 characterAverages[2] = (int)Math.ceil(average);
 				}
-				//if the average has a decimal less than 0.5 round down.
+				//if the average has a decimal less than 0.5 round down
 				else 
 				{
 					characterAverages[2] = (int)Math.floor(average);
