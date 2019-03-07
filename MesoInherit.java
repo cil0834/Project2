@@ -13,11 +13,11 @@ public class MesoInherit extends MesoAbstract
 	
 	@Override
 	/**
-	 * The calAverage takes the mesoString and puts it into a new string. 
+	 * The calAverage takes the mesoString and puts it into a new string
 	 * Each of the string's character's ascii values are then added an array 
 	 * The array's values are then averaged in various ways, such as ceiling, floor and a general average
 	 * 
-	 * @return An array that contains various averages of the the ascii values of the string.
+	 * @return An array that contains various averages of the the ascii values of the string
 	 * 		   int[0] contains the ceiling of the average
 	 * 		   int[1] contains the floor of the average
 	 * 		   int[2] contains the floor (if the decimal is > 0.5) or the ceiling otherwise
